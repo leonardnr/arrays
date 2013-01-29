@@ -1,3 +1,12 @@
+/**
+ * 		arrays
+ *
+ * 			Methods for dealing with arrays
+ *
+ * 		Nick Leonard
+ */
+
+
 public class arrays{
 
 	public static void main(String[] args) {
@@ -6,11 +15,26 @@ public class arrays{
 		System.out.println(avg(nums));
 	}
 
+	/**
+	 * avg
+	 * 		Finds the mean of an array
+	 *
+	 *
+	 * @param nums - the array
+	 * @return the mean
+	 */
 	public static double avg(int[] nums){
 		return (sum(nums)) / nums.length;
 
 	}
 
+	/**
+	 * sum
+	 * 		Finds the sum of an array
+	 *
+	 * @param nums - the array
+	 * @return the sum
+	 */
 	public static double sum(int [] nums){
 		double counter = 0;
 		
